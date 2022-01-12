@@ -1,8 +1,80 @@
-header{
-    height: 65px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#d7edf39d ;
+    font-family:'verdana';
+}
+
+/*hheader{
+    height: 80px;
     background-color: #1f12d4;
     color: white;
     display: flex;
     align-items: center;
     padding-left: 25px;
+}}*/
+ header {
+     background: #03a9f4;
+     width: 100%;
+     clear: both;
+     content:'';
+     display: table;
+ 
+
+}
+.cabe {
+    width: 900px;
+    height: 80px;
+    margin: 0 auto;
+}
+h5{
+    width: 120px;
+    height: 100px;
+    position: fixed;
+    top: 10px;
+    left: 2px;
+
+}
+
+img {
+    width: 120px;
+    height: 100px;
+    float: left;
+    position: fixed;
+    top: 0px;
+    left: 2px;
+
+}
+nav {
+   float: right;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 55px;
+    padding: 25px 0;
+    float: left;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+.banner {
+    width: 1220px;
+    height: 320px;
+    position: fixed;
+    top: 80px;
+    left: 80px;
+}
+.cara {
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+    top: 50%;
+    left: 7%;
+    position: absolute;
 }
